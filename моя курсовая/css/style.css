@@ -1,0 +1,608 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+
+
+
+
+*{
+	/*background-image: url("url(C:\Users\User\Downloads\фон для сайта.jpg");*/
+	/*background-color: rgb(225,225,225); */
+	/*color: black;*/
+	padding: 0;
+	margin: 0;
+}
+
+/*правила/////////////////////////////////////////*/
+ul{
+	text-decoration: none;	
+}
+
+li{
+	list-style-type: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+input{
+	text-decoration:none;
+}
+
+body{
+	background-image: url(C:\Users\User\Desktop\Azamat\Мой первый полноценный сайт\css\img\red.jpg);
+	color: black;
+}
+
+
+
+/*header/////////////////////////////////////////*/
+
+header, .header{
+	
+	width: 100%;
+	border-bottom: 2px solid white;
+	position: fixed;
+	top:0;
+	z-index: 2;
+	
+}
+
+/*background/////////////////////////////////////////*/
+
+.bg{
+	width: 100%;
+	z-index: 0;
+	padding: 0;
+
+}
+
+.box-bg{
+	position: relative;
+}
+
+.bg-2{
+	width: 100%;
+	z-index: 0;
+	padding: 0;
+	margin-top: 160px;
+}
+
+
+
+/*row-1/////////////////////////////////////////*/
+
+.row{
+	border-bottom: 1px solid white;
+	height: 73px;
+}
+
+.about{
+/*	height: 75px;
+	
+	color: #F2F3F4;*/
+	text-align: left;
+	background-color: rgba(0,0,0, 0.6);
+}
+
+.mini-mini-about {
+/*	width: 300px;
+	background-color: rgba(0,0,0, 0.0);
+	*/
+
+	margin-left: 100px;
+}
+
+.name{
+    font-family: 'Manrope', sans-serif;
+	height: 75px;
+	vertical-align: middle;
+	color: #F2F3F4;
+	border-left:  1px solid white;
+	border-right: 1px solid white;
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(0,0,0, 0.6);
+}
+
+.mini-name{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #FFFFE0;
+
+}
+
+.login{
+	/*
+
+	
+	color: #F2F3F4;*/
+	display: inline-block;
+	background-color: blue;
+    text-align: right;
+    background-color: rgba(0,0,0, 0.6);	
+
+}
+
+.mini-login{
+/*	
+	margin-top: 20px;
+	background-color: rgba(0,0,0, 0.0);*/
+	margin-right: 200px;
+ 	margin-top: 20px;
+}
+
+.link-1 , .link-2 , .link-3 {
+/*	
+	width: 30%;
+	background-color: rgba(0,0,0, 0.0);
+	color: white;*/
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+
+
+/*row-2/////////////////////////////////////////*/
+
+.row-2{
+	font-family: 'Caveat', cursive;
+	width: 100%;
+	height: 400px;
+	top:380px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 1;
+}
+
+.mini-row-2{
+	font-size: 60px;
+	color: white;
+}
+
+/*row-3/////////////////////////////////////////////////*/
+
+.row-3{
+	width: 100%;
+	height: 1000px;
+	top: 1070px;
+	color: black;
+	text-align: center;
+	display: block;
+	height: 700px;
+	background-color: white;
+	padding-top: 50px;
+	z-index: 1;
+
+	position: absolute;
+}
+
+.movie{
+	margin-top: 00px;
+}
+
+.title-2{
+	font-size: 45px;
+	font-family: 'Commissioner', sans-serif;
+	margin-bottom: 20px;
+}
+
+.line , .line-2{
+	width: 350px;
+	display: inline-block;
+	margin: 10px 50px;
+
+}
+
+.content{
+	font-family: 'Bad Script', cursive;
+	display: flex;
+	justify-content: center;
+}
+
+.slid-move{
+	width: 100%;
+}
+
+.box-beta{
+	margin-top: 50px;
+	margin-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.box-right{
+	display: block;
+	transition: 1s;
+}
+
+.box-right:hover{
+}
+
+.mini-right{
+	font-family: 'Great Vibes', cursive;
+
+}
+
+.name-right{
+	padding-top: 10px;
+	font-size: 28px;
+}
+
+.prise{
+	font-size: 24px;
+}
+
+.color{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.weight{
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.box-left{
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	transition: 1s;
+	width: 253px;
+    height: 324px;
+}
+
+.box-left:hover{
+/*	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);*/
+}
+
+.box-left:hover .cloud{
+	margin-top:-48px;
+}
+
+.box-left:hover .origin_img{
+	opacity: 0;	
+}
+
+.origin_img{
+	position: absolute;
+	transition: .5s;
+	width: 253px;
+	height: 324px;
+	z-index: 1;
+}
+
+.hover_img{
+	position: absolute;
+	width: 253px;
+	height: 324px;
+	z-index: 0;
+}
+
+.cloud{
+	background-color:  rgba(0,0,0, 0.6);
+	color: white;
+	position: absolute;
+	width: 256px;
+	height: 48px;
+	transition: .5s;
+	top: 324px;
+	z-index: 1;
+	font-size: 20px;
+	vertical-align: middle;
+	padding-top: 14px;
+}
+
+
+/*row-4/////////////////////////////////////////*/
+
+.row-4{
+	display: block;
+	position: absolute;
+	top: 2500px;
+}
+
+.table{
+	width: 100%;
+	height: 1100px;
+	background-color: rgb(39, 48, 54);
+}
+
+.movie{
+	margin-top: 0px;
+}
+
+.wave{
+	/*width: 100%*/
+	padding-top: 300px;
+	border-color: red;
+	padding: 0;
+	background-color: white;
+
+}																													
+
+.mini-slides{
+	display: block;
+	padding: 0px 60px;
+}
+
+.content-2{
+	background-color: #273036 ;
+	height: 600px;
+	color: white;
+	margin:0;
+	padding-top: 70px;
+	
+}
+
+.fonts{
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.movie-2{
+	margin-top: 100px;
+}
+
+.mini-header,
+.help,
+.follow,
+.input
+{
+	top:100px;
+	display: inline-block;
+}
+
+.mini-header{
+	margin-left: 200px;
+}
+
+.mini-title{
+	font-size: 34px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.list{
+	margin-top: 30px;
+}
+
+.namber{
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.mini-header-2{
+	float: right;
+	margin-right: 50px;
+	margin-top:20px;
+	margin-left: 50px;
+}
+
+.decor{
+	font-family: 'Allan', cursive;
+	font-size: 25px;
+}
+
+.help{
+	margin-right: 50px;
+}
+
+.follow{
+
+}
+
+.input{
+	height: 50px;
+	margin-top: 50px;
+	text-align: left;
+}
+
+.button,.text {
+	display: inline-block;
+}
+
+
+/*row-5/////////////////////////////////////////*/
+
+
+.row-5{
+	width: 100%;
+	height: 400px;
+	top: 1960px;
+	color: white;
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mini-row-5{
+	margin-top: 160px;
+	display: flex;
+	font-size: 40px;
+	justify-content: center;
+	vertical-align: middle;
+	font-family: 'Marck Script', cursive;
+}
+
+
+/*dum/////////////////////////////////////////*/
+
+.dum{
+	animation: animacia 5s infinite;
+}
+
+
+.dum-2{
+	animation: animacia 10s infinite ease ;
+}
+
+
+
+/*img/////////////////////////////////////////*/
+
+img{
+	
+}
+
+.apple{
+	height: 0;
+	animation: animacia 10s infinite ease;
+	margin-top: 200px;
+}
+
+/*button/////////////////////////////////////////*/
+
+
+.slick-next {
+	top: 218px;
+    right: 1px;   
+    z-index: 1;
+}
+
+
+.slick-prev{
+	top: 218px;
+    left: 1px;
+	z-index: 1; 
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+button{
+	text-decoration: none;
+	border:0px;
+}
+
+#btn-2{
+	height: 45px;
+	background-color: black;
+	color: #FFFFE0;
+	opacity: 0.7;
+	outline: none;
+	transition: 0.3s;
+}
+
+
+.btn-2{
+	margin-top: 2px;
+	width: 140px;
+	height: 45px;
+	background-color: black;
+	color: #FFFFE0;
+	opacity: 0.7;
+	outline: none;
+	transition: 0.3s;
+}
+
+.btn-2:hover{
+	outline: none;
+	opacity: 0.5;
+	width: 140px;
+}
+
+.btn{
+	width: 175px;
+	height: 40px;
+	margin-top: 60px;
+	background-color: black;
+}
+
+.btn:hover{
+
+}
+
+.btn-mini{
+	margin-top: 0px;
+	width: 100px;
+	height: 30px;
+	background-color: #242a35;
+	color: white;
+}
+
+.btn-mini:hover{
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+/*input/////////////////////////////////////////*/
+
+.mini-input{
+
+	margin-bottom: 3px;
+	width: 380px;
+	height: 43px;
+	padding-left: 10px;
+	outline: none;
+	border:none;
+}
+
+
+/*a/////////////////////////////////////////*/
+
+a {
+ 	color: #FFFFE0; /* Цвет обычной ссылки */
+ 	padding: 10px; /* Поля вокруг текста */
+ 	transition: 0.5s linear;
+}
+a:visited {
+ 	color: ; /* Цвет посещенной ссылки */
+} 
+a:hover {	
+ 	text-decoration: none; /* Убираем подчеркивание */
+ 	color:  #DAA520/*#fff*/; /* Цвет ссылки при наведении на нее курсора мыши */  
+ 	background: /*#e24486*/; /* Цвет фона */
+}
+
+/*animacion*/
+
+@keyframes box{
+	0%{transform: translateX(0px);}
+	100%{transform: translateX(-50px);}
+}
+
+@keyframes animacia {
+	0% {transform: translateY(-50px);}
+	10%{transform: translateX(30px);}
+	20%{transform: translateX(60px);}
+	30%{transform: translateY(-60px);}
+	40%{transform: translateX(30px);}
+	50%{transform: translateY(-100px);}
+	60%{transform: translateX(30px);}
+	70%{transform: translateX(30px);}
+	80%{transform: translateX(30px);}
+	90%{transform: translateX(30px);}
+	100%{transform: translateX(5100px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
